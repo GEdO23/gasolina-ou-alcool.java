@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312.0" prefWidth="452.0" style="-fx-background-color: rgb(50, 120, 150);" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="124.0" layoutY="17.0" prefHeight="25.0" prefWidth="208.0" style="-fx-font-weight: 800; -fx-font-size: 18px;" text="PALÍNDROMOS" textFill="WHITE" underline="true" />
+      <TextField layoutX="52.0" layoutY="59.0" prefHeight="32.0" prefWidth="349.0" promptText="Digite um palíndromo" />
+      <Button layoutX="188.0" layoutY="103.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="79.0" style="-fx-background-color: rgb(10, 80, 110); -fx-font-size: 14px;" text="testar" textFill="WHITE" />
+      <ListView layoutX="53.0" layoutY="144.0" prefHeight="142.0" prefWidth="349.0" style="-fx-border-radius: 20px;" />
+   </children>
+</Pane>
